@@ -1,0 +1,13 @@
+O desenvolvimento de um projeto de banco de dados passa por fases que são de grande importância para sua implementação. Descreva as etapas desse processo.
+
+Análise de requisitos:
+Na primeira etapa é feito a identificação dos requisitos que o banco de dados deve atender. 
+
+Projeto conceitual:
+Nessa fase usamos a especificação de requisitos feita na fase anterior e a partir dai e gerado um esquema conceitual do bando de dados, uma visão macro de todo banco de dados e uma descrição da estrutura de alto nível, onde se usa os Modelos de Entidade-Relacionamento (MER).
+
+Projeto Logico:
+Essa é a etapa onde é feito o mapeamento do conceito MER em objetivos de banco de dados, é criado modelos internos de banco de dados onde cada é posto todos os detalhes sobre tabelas, relacionamentos, regras, metadados de colunas, visões e etc...
+
+Projeto físico:  
+Na parte final do projeto se define detalhes técnicos da implementação do banco de dados, por exemplo a forma como os dados serão armazenados, os scripts usados para a criação dos objetos do banco de dados, as permissões de acesso de usuários e etc.. Essa etapa está ligada ao SGBD (DBMS), e a otimização também é trabalhada nessa fase do projeto
